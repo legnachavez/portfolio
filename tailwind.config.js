@@ -8,6 +8,16 @@ module.exports = {
     "./app/javascript/**/*.vue",
   ],
 
+  theme: {
+    extend: {
+      colors: {
+          blue: {
+          950: '#17275c',
+        },
+      },
+    },
+  },
+
   presets: [],
   darkMode: false, // or 'media' or 'class'
   theme: {
@@ -32,6 +42,7 @@ module.exports = {
       indigo: colors.indigo,
       purple: colors.violet,
       pink: colors.pink,
+
     },
     spacing: {
       px: '1px',
